@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netcoreapp2.1;netcoreapp2.2;netcoreapp3.1</TargetFrameworks>
+    <RootNamespace>ddd.Infrastructure.MediatR</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ddd.Extensions\ddd.Extensions.csproj" />
+    <ProjectReference Include="..\ddd\ddd.csproj" />
+  </ItemGroup>
+
+</Project>
